@@ -1,0 +1,4 @@
+[01-Nov-2015 19:31:27 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/gilliap8/public_html/pyromancy.org/wp-content/themes/pyromancy2014/404.php on line 1
+[17-Nov-2015 22:42:46 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/gilliap8/public_html/pyromancy.org/wp-content/themes/pyromancy2014/index.php on line 1
+[17-Nov-2015 22:42:56 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/gilliap8/public_html/pyromancy.org/wp-content/themes/pyromancy2014/index.php on line 1
+[03-Dec-2015 19:30:54 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/gilliap8/public_html/pyromancy.org/wp-content/themes/pyromancy2014/index.php on line 1

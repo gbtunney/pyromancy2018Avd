@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*
+Theme Name: Uncode Child
+Description: Child theme for Uncode theme
+Author: Undsgn™
+Author URI: http://www.undsgn.com
+Template: uncode
+Version: 1.0.0
+Text Domain: uncode
+*/
+/* vietnamese */
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:200,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700");
+@font-face {
+  font-family: 'metro_light_italic_hplhsRg';
+  src: url("fonts/metrolitoblhplhs-webfont.woff2") format("woff2"), url("fonts/metrolitoblhplhs-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'text_serif_hplhslight';
+  src: url("fonts/textserlighplhs-webfont.woff2") format("woff2"), url("fonts/textserlighplhs-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.pyromancy-contact-form {
+  max-width: 600px;
+  padding: 20px; }
+  .pyromancy-contact-form textarea {
+    border: 2px solid #70665B; }
+  .pyromancy-contact-form .listcheckbox-container ul, .pyromancy-contact-form .listradio-container ul {
+    display: block; }
+    .pyromancy-contact-form .listcheckbox-container ul li, .pyromancy-contact-form .listradio-container ul li {
+      width: 50%;
+      float: left;
+      overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */

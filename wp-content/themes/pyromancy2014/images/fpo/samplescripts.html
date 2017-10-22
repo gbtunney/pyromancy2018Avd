@@ -1,0 +1,110 @@
+THE TAB PANE>
+
+
+{tab=Group Photo}<a href="http://www.pyromancy.org/wp-content/uploads/2010/04/group-resiz.png"><img src="http://www.pyromancy.org/wp-content/uploads/2010/04/group-resiz.png" alt="" title="group-resiz" width="550" height="516" class="alignnone size-full wp-image-948" /></a>
+{tab=Fire Performance Demo Video}
+<br/><div align="center">[youtube]Puv52gj1iWo[/youtube]</div>
+{tab=LED Demo Video}
+<br/><div align="center">[youtube]ZxAN8HKudgU[/youtube]</div>
+{/tabs}
+
+{tablist}
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="#home" role="tab" data-toggle="tab">Group Photo</a></li>
+    <li><a href="#profile" role="tab" data-toggle="tab">Fire Performance Demo Video</a></li>
+    <li><a href="#messages" role="tab" data-toggle="tab">LED Demo Video</a></li>
+
+</ul>
+<!-- Tab panes -->
+<div class="tab-content">
+    <div class="tab-pane active" id="home"><a
+            href="http://www.pyromancy.org/wp-content/uploads/2010/04/group-resiz.png"><img
+            src="http://www.pyromancy.org/wp-content/uploads/2010/04/group-resiz.png" alt="" title="group-resiz"
+            width="550" height="516" class="alignnone size-full wp-image-948"/></a></div>
+    <div class="tab-pane" id="profile"><br/>
+
+        <div align="center">[youtube]Puv52gj1iWo[/youtube]</div>
+    </div>
+    <div class="tab-pane" id="messages">
+        <br/>
+
+        <div align="center">[youtube]ZxAN8HKudgU[/youtube]</div>
+    </div>
+</div>
+
+
+        THE ACCORDION:
+
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Collapsible Group Item #1
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Collapsible Group Item #2
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Collapsible Group Item #3
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="menu-main-nav-container">
+    <ul class="menu" id="menu-main-nav">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1648" id="menu-item-1648"><a
+                href="http://localhost/pyromancy/about/">About</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1649" id="menu-item-1649"><a
+                href="http://localhost/pyromancy/gallery/">Gallery</a></li>
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1652" id="menu-item-1652"><a
+                href="http://category/press">Press</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1650" id="menu-item-1650"><a
+                href="http://localhost/pyromancy/calendar/">Calendar</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1651" id="menu-item-1651"><a
+                href="http://localhost/pyromancy/contact/">Contact</a></li>
+    </ul>
+</div>
+
+
+THUMBNAIL WALKER:
+
+$mytheme_walker = new Thumbnail_Walker();
+wp_nav_menu( array(
+'walker' => $mytheme_walker
+) );

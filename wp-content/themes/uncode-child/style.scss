@@ -1,0 +1,69 @@
+/*
+Theme Name: Uncode Child
+Description: Child theme for Uncode theme
+Author: Undsgn™
+Author URI: http://www.undsgn.com
+Template: uncode
+Version: 1.0.0
+Text Domain: uncode
+*/
+/* vietnamese */
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:200,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700');
+@font-face {
+    font-family: 'metro_light_italic_hplhsRg';
+    src: url('fonts/metrolitoblhplhs-webfont.woff2') format('woff2'),
+    url('fonts/metrolitoblhplhs-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'text_serif_hplhslight';
+    src: url('fonts/textserlighplhs-webfont.woff2') format('woff2'),
+    url('fonts/textserlighplhs-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$dark-gray: #585858;
+$tana: #bdba9c;
+$khaki: #f0e68c;
+$west-coast: #64551f;
+$highball: #90813b;
+$sandstone: #7b6d5c;
+$schooner: #8b8378;
+$spice: #66543e;
+$madras: #4c3b25;
+$onion: #33250d;
+$woodrush: #332915;
+$jacko-bean: #2e1c08;
+$acadia: #1e1205;
+$crowshead: #1a130a;
+$coffee: #70665B;
+
+.pyromancy-contact-form{
+max-width:600px;
+  padding:20px;
+  textarea{
+
+
+    border:2px solid $coffee;
+  }
+  .listcheckbox-container, .listradio-container{
+    ul{
+     display:block;
+
+      li{
+        width: 50%;
+float: left;overflow: hidden;
+      }
+    }
+  }
+}
+
