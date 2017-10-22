@@ -27,8 +27,8 @@ include_once __DIR__ . '/wp-config.common.php';
  */
 //define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . ':8080/wp');
 //define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME'] . ':8080/wp');
-define('WP_SITEURL',"http://pyr.dev:8888");
-define('WP_HOME', 'http://pyr.dev:8888');
+define('WP_SITEURL',"http://pyr.dev:8888/wordpress");
+define('WP_HOME', 'http://pyr.dev:8888/wordpress');
 
 
 // ** MySQL settings - You can get this info from your web host ** //
