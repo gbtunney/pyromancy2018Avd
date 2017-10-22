@@ -1,0 +1,13 @@
+# Project files
+/.idea
+
+# Build artifacts
+/build
+/src/**/*.js
+/src/**/*.js.map
+
+# Local config files
+/src/config/config.local.ts
+
+# Other
+/node_modules

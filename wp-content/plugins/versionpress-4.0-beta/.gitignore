@@ -1,0 +1,12 @@
+# Build dirs
+/build
+/dist
+
+node_modules
+/plugins/versionpress/admin/public/gui
+
+# Other
+Thumbs.db
+npm-debug.log
+
+docker-compose.override.yml
